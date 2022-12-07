@@ -1,0 +1,14 @@
+# Это файл конфигурации пользователя Git.
+[user]
+    name = %nickname%
+    email = %email%
+[core]
+    excludesfile = ~/.gitignore
+    editor = vim
+
+[alias]
+    d = diff
+    co = checkout
+    st = status
+    new = checkout -b
+
