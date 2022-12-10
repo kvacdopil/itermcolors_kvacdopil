@@ -11,4 +11,15 @@
     co = checkout
     st = status
     new = checkout -b
+    del = branch -d
+    ps = "! git push origin $(git rev-parse --abbrev-ref HEAD)"
+    pl = "! git pull origin $(git rev-parse --abbrev-ref HEAD)"
+    open = "!hub browse kvacdopil"
+    hist = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+
+[hub]
+    protocol = https
+
+[github]
+    user = kvacdopil
 
