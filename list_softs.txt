@@ -1,0 +1,18 @@
+iterm2 (and customization)
+brew
+python
+docker
+zoom
+spectacle (or rectangle)
+brooklyn (screensaver)
+notion
+outline (client & manager)
+sublime text
+visual studio code
+discord
+telegram
+chrome
+vim customization(vim-colorschemes, vim-surround, lightline.vim, vim-gitgutter, vim-closetag, exa)
+monosnap?
+commitizen (plugin for git)
+
