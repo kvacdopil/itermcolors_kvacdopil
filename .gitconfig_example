@@ -16,6 +16,8 @@
     pl = "! git pull origin $(git rev-parse --abbrev-ref HEAD)"
     open = "!hub browse kvacdopil"
     hist = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+    home = !git checkout master && git pull
+    sync = push -u origin
 
 [hub]
     protocol = https
